@@ -89,8 +89,53 @@
         </p>
 
         <h2>¿Qué son los códigos de estado de respuestas HTTP? Realizar una tabla con su clasificación.</h2>
+
+        <h3><u>tipos de Códigos de estado de respuesta HTTP</u></h3>
         <table>
-            
+            <tr>
+                <th>tipo de respuesta</th>
+                <th>codigo de estado</th>
+                <th>descripcion</th>
+            </tr>
+            <tr>
+                <th rowspan="4"> <em>informativa</em></th>
+                <td>100-continue</td>
+                <td>indica que por ahora todo esta bien</td>
+            </tr>
+            <tr>
+                <td>101-Switching Protocol</td>
+                <td>se envia en respuesta a un encabezado de solicitud</td>
+            </tr>
+            <tr>
+
+                <td>102-Processing</td>
+                <td>indica que le servidor recibio la solicitud pero aun la esta procesando</td>
+            </tr>
+            <tr>
+                <td>103-Early Hints</td>
+                <td>pre carga recursos mientras el servidor prepara respuesta</td>
+            </tr>
+            <tr>
+                <th rowspan="10"><em>satisfactorias</em></th>
+                <td>200-OK</td>
+                <td>todo ok</td>
+            </tr>
+            <tr>
+                <td>201-Created</td>
+                <td>la solicitud tuvo exito y se crea un nuevo recurso</td>
+            </tr>
+            <tr>
+                <td>202-Accepted</td>
+                <td>la solicitud se recibio pero no hay respuesta</td>
+            </tr>
+            <tr>
+                <td>203-Non-Authoritative Information</td>
+                <td>todo ok, pero los recursos los saca de una fuente de un tercero</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
         </table>
     </main>
     <footer>
