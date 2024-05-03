@@ -89,7 +89,9 @@
         </p>
 
         <h2>¿Qué son los códigos de estado de respuestas HTTP? Realizar una tabla con su clasificación.</h2>
+        <p>
 
+        </p>
         <h3><u>tipos de Códigos de estado de respuesta HTTP</u></h3>
         <table>
             <tr>
@@ -133,9 +135,52 @@
                 <td>todo ok, pero los recursos los saca de una fuente de un tercero</td>
             </tr>
             <tr>
+                <td>204-No Content</td>
+                <td>la peticion se completa pero la respuesta no tiene contenido</td>
+            </tr>
+            <tr>
+                <td>205-Reset-Content</td>
+                <td>la peticion se completa y el agente vuelve a inicializar la pagina donde se envio la solicitud</td>
+            </tr>
+            <tr>
+                <td>206-Partial Content</td>
+                <td>la petición servirá parcialmente el contenido solicitado</td>
+            </tr>
+            <tr>
+                <td>207-Multi-Status</td>
+                <td>da una respuesta multi-estado</td>
+            </tr>
+            <tr>
+                <td>208-multi-status</td>
+                <td>el listado de elementos DAV ya se recibio, ya no se va a volver a listar</td>
+            </tr>
+            <tr>
+                <td>226-IM Used</td>
+                <td>El servidor ha procesado la solicitud GET y ha devuelto los resultados esperados.</td>
+            </tr>
+            <tr>
+                <th rowspan="9">redirecciones</th>
                 <td></td>
                 <td></td>
             </tr>
+            <tr>
+                <td>300-Multiple Choice</td>
+                <td>la solicitud tiene mas de una respuesta. el cliente debe elegir la respuesta</td>
+            </tr>
+            <tr>
+                <td>301-Moved Permanently</td>
+                <td>la ruespuesta URI ha sido cambiado, seguramente se de una nueva URI como respuesta</td>
+            </tr>
+            <tr>
+                <td>302-Found</td>
+                <td>la respuesta URI ha sido cambiado temporalmente</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
         </table>
     </main>
     <footer>
